@@ -1,0 +1,157 @@
+.container{
+  width:100%;
+  margin:0 auto;
+}
+
+header{
+  height:70px;
+  width:100%;
+  background-color:rgba(0,0,0,0.7);
+  display:block;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-top p{
+  color:white;
+  float:left;
+  list-style:none;
+  line-height:70px;
+  display:block;
+  margin:0 30px 0 30px;
+  background-color:rgba(250,250,210,0.5);
+  cursor:pointer;
+  transition:all 0.5s;
+}
+.top{
+  padding:0 40px 0 40px;
+}
+.ue{
+  padding:0 22px 0 22px;
+}
+.gi:hover{
+  background-color:rgba(245,245,245,0.5);
+}
+
+.top-wrapper{
+  background-image:url(https://photohito.k-img.com/uploads/photo33/user32772/1/2/12f4f1f7cd63e85ce537b10b5fd61db0/12f4f1f7cd63e85ce537b10b5fd61db0_l.jpg);
+  height:500px;
+  background-size:cover;
+  font-family:serif;
+  text-align:center;
+  transition:all 0.5s;
+  padding-top:100px;
+}
+
+.top-wrapper h1{
+  font-size:50px;
+  opacity:0.8;
+  color:white;
+  letter-spacing:5px;
+}
+.top-title p{
+  font-size:40px;
+  color:white;
+  opacity:0.9;
+}
+
+.facebook{
+  background-color:#3b5998;
+  padding:15px 50px;
+  margin-right:50px;
+}
+.twitter{
+  background-color:#55acee;
+  padding:15px 57px;
+}
+.instagram{
+  background-color:#CC00FF;
+  padding:15px 50px;
+  margin-left:50px;
+}
+.btn{
+  display:inline-block;
+  border-radius:10px;
+  opacity:0.8;
+  color:white;
+  cursor:pointer;
+  margin-top:80px;
+}
+.btn:hover{
+  opacity:1;
+}
+
+.lesson-wrapper{
+  text-align:center;
+  background-color:#EEEEEE;
+  padding-top:100px;
+  height:400px;
+}
+.lesson-img{
+  position:relative;
+}
+.lesson-img a{
+  list-style:none;
+  position:absolute;
+  display:block;
+  width:100%;
+  color:white;
+  opacity:0.8;
+  cursor:pointer;
+}
+.japanese{
+  top:80px;
+}
+.english{
+  top:100px;
+}
+
+.japanese:hover{
+  opacity:1;
+}
+.english:hover{
+  opacity:1;
+}
+.lesson{
+  float:left;
+  width:50%;
+}
+.txt-contents{
+  display:inline-block;
+  width:80%;
+  opacity:0.8;
+  padding-top:10px;
+}
+
+.bottom-botan{
+  padding:22px 40px;
+  display:inline-block;
+  background-color:#FF9999;
+  box-shadow:0px 10px #FF6699;
+  border-radius:5px;
+  margin-bottom:60px;
+  transition:all 0.5s;
+  color:white;
+  cursor:pointer;
+}
+.bottom-botan:active{
+  box-shadow:none;
+  position:relative;
+  top:22px;
+}
+.bottom-wrapper{
+  padding-top:90px;
+  text-align:center;
+}
+.bottom-wrapper h1{
+  color:#555555;
+  font-size:70px;
+  font-family:serif;
+  opacity:0.5;
+}
+footer{
+  padding:10px 0px 10px 40px;
+  border-top:1px solid #FFCCFF;
+
+}
