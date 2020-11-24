@@ -123,7 +123,9 @@ header{
   opacity:0.8;
   padding-top:10px;
 }
-
+.fa{
+  padding-right:5px;
+}
 .bottom-botan{
   padding:22px 40px;
   display:inline-block;
